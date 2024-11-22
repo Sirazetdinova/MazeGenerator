@@ -1,0 +1,14 @@
+#SizeMessageMapper
+not_odd_numbers = Both sizes must be odd numbers.
+huge_sizes = Maze size is too large to display.
+invalid_size_format = Invalid format for size input. Please use 'rows columns'.
+
+#PositionMessageMapper
+invalid_position_format = Invalid format for position input. Please use 'row column'.
+position_not_in_maze = The specified position is outside the maze.
+
+#GeneratorAlgorithmMessageMapper
+invalid_algorithm = Unknown generator algorithm selected.
+
+#SolverAlgorithmMessageMapper
+invalid_algorithm = Unknown solver algorithm selected.

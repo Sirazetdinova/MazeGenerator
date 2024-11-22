@@ -1,0 +1,35 @@
+#Launcher
+generation_template = Choose a maze generator algorithm: \
+                       [%s] Kruskal's algorithm \
+                       [%s] Prim's algorithm \
+                       [%s] Growing Tree algorithm \
+                       [%s] Random algorithm
+solution_template = Choose a maze solver algorithm: \
+                      [%s] BFS algorithm \
+                      [%s] A-star algorithm \
+                      [%s] Random algorithm
+welcome = Welcome to the Maze!
+exit = Leaving the maze...
+cant_continue = Unable continue.
+invalid_command = Invalid command
+
+#OutputService
+maze_size_prompt = Type the size of Maze in format \"a b\" \nBoth numbers must be odd
+start_cell = Type the coordinates of start cell of Maze in format \"row column\"
+end_cell = Type the coordinates of end cell of Maze in format \"row column\"
+solution_found = Solution found
+solution_not_found = Solution not found
+try_again = Incorrect. Try again
+generation_algorithm = Select the algorithm by which the maze will be generated
+solution_algorithm = Select the algorithm by which the maze will be solved
+
+#MazeSession
+finish = Congratulations! You've reached the end of the maze!
+no_solution = The solution to this maze has not been found!
+invalid_maze_size = Invalid maze size entered.
+maze_size = Enter the maze size in the format 'rows columns' (both must be odd numbers)
+start_position = Enter the start cell coordinates in the format 'row column'
+end_position = Enter the end cell coordinates in the format 'row column'
+invalid_coordinates = Error: Invalid coordinates entered.
+generation_error = An error occurred while generating the maze.
+solver_error = An error occurred while solving the maze.
